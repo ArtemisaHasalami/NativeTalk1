@@ -12,7 +12,7 @@ from sqlalchemy.orm import sessionmaker
 from app.core.config import get_settings
 from app.core.logging import get_logger
 
-logger = get_logger("nativeTalk.db")
+logger = get_logger("NativeTalk.db")
 settings = get_settings()
 
 engine = create_engine(
